@@ -1,6 +1,6 @@
 export default function AboutMe() {
     <section id="aboutme">
-        <div className="">
+        <div>
             <h1>
                 Hi, my name is Peter!
             </h1>

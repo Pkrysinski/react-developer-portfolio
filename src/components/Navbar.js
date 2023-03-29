@@ -1,6 +1,6 @@
 import '../styles/Navbar.css';
 
-export default function Nabbar() {
+export default function Navbar() {
     return (
         <header class="nav">
             <a>Peter Krysinski</a>
