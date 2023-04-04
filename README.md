@@ -38,6 +38,7 @@ WHEN I load the portfolio,
 THEN I am presented with a page containing a header, a section for content, and a footer.
 >DONE: Header, content section, and footer all stubbed up and functional.
 
+
 - - - - -
 WHEN I view the header,
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio.
@@ -48,7 +49,6 @@ THEN I am presented with the developer's name and navigation with titles corresp
 WHEN I view the navigation titles,
 THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
 >DONE: Implementation of NavLink logic in the new StyledNavbar.js file now replacing the old Navbar.js file.  This allows us to check for isActive or isPending attributes to the component in which we're looking at.
-
 
 
 - - - - -
@@ -76,6 +76,7 @@ THEN I see titled images of six of the developer’s applications with links to 
 - - - - -
 WHEN I am presented with the Contact section,
 THEN I see a contact form with fields for a name, an email address, and a message.
+>IN-PROGRESS: Need to add inputs for name and message, and get themn working.
 
 
 - - - - -
