@@ -36,15 +36,18 @@ GIVEN a single-page application portfolio for a web developer...
 - - - - -
 WHEN I load the portfolio,
 THEN I am presented with a page containing a header, a section for content, and a footer.
+>DONE: Header, content section, and footer all stubbed up and functional.
 
 - - - - -
 WHEN I view the header,
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio.
+>DONE: Finally got the React Routing working!  Navigation titles now function as working links to tell the react-router-dom what to replace in the content section of the page with whichever link's component was clicked.
 
 
 - - - - -
 WHEN I view the navigation titles,
 THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
+
 
 
 - - - - -
@@ -90,3 +93,9 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 - - - - -
 WHEN I view the footer,
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
+
+
+- - - - -
+TODO LIST...
+-Need a footer component (and maybe a header?)
+-Need to implement tailwind/CSS

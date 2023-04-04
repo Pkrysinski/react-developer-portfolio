@@ -1,5 +1,9 @@
-export default function AboutMe() {
-    <section id="aboutme">
+import React from 'react';
+
+function AboutMe() {
+
+    return(
+        <section id="aboutme">
         <div>
             <h1>
                 Hi, my name is Peter!
@@ -9,4 +13,7 @@ export default function AboutMe() {
             </p>
         </div>
     </section>
+    )
 };
+
+export default AboutMe;

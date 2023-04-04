@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-// import './style.css';
+// import './style.css'; //TODO: eventually uncomment this
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 
-function Form() {
+function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -45,32 +45,35 @@ function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {email}</p>
-      <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        {/* <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        /> */}
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-    </div>
+    <section id="contact">
+      <div>
+        <h1>Please fill out a form to contact me!</h1>
+        <form className="form">
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+          />
+          {/* <input
+            value={userName}
+            name="userName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="username"
+          /> */}
+          <button type="button" onClick={handleFormSubmit}>Submit</button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
+    </section>
+
   );
 }
 
-export default Form;
+export default Contact;
