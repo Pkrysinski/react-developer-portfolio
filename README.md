@@ -47,17 +47,20 @@ THEN I am presented with the developer's name and navigation with titles corresp
 - - - - -
 WHEN I view the navigation titles,
 THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
+>DONE: Implementation of NavLink logic in the new StyledNavbar.js file now replacing the old Navbar.js file.  This allows us to check for isActive or isPending attributes to the component in which we're looking at.
 
 
 
 - - - - -
 WHEN I click on a navigation title,
 THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted.
+>DONE: This now works with the previous requirement with implementation of the NavLink attributes, and the correct page is loaded on the screen.
 
 
 - - - - -
 WHEN I load the portfolio the first time,
 THEN the About Me title and section are selected by default.
+>DONE: This is now the default page when the app is loaded up.
 
 
 - - - - -
@@ -97,5 +100,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - - - - -
 TODO LIST...
--Need a footer component (and maybe a header?)
--Need to implement tailwind/CSS
+-Need a footer component (and maybe a header?).
+-Need to implement tailwind/CSS.
