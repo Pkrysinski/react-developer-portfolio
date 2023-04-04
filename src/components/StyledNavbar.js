@@ -4,33 +4,32 @@ import '../styles/Navbar.css';
 
 function StyledNavbar() {
     return(
-        <header className='navbar'>
+        <nav className='navbar'>
             <NavLink to='/' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "black",
+                    color: isPending ? "red" : "white",
                 }
             }}>About Me</NavLink>
-            
             <NavLink to='/portfolio' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "black",
+                    color: isPending ? "red" : "white",
                 }
             }}>Portfolio</NavLink>
             <NavLink to='/contact' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "black",
+                    color: isPending ? "red" : "white",
                 }
             }}>Contact</NavLink>
             <NavLink to='/resume' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "black",
+                    color: isPending ? "red" : "white",
                 }
             }}>Resume</NavLink>
-        </header>
+        </nav>
     )
 };
 

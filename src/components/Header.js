@@ -6,7 +6,7 @@ import StyledNavbar from "./StyledNavbar";
 function Header() {
     return (
         <header>
-            <p>Peter Krysinski</p>
+            <h1>Peter Krysinski</h1>
             <StyledNavbar />
         </header>
       );
