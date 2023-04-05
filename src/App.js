@@ -21,31 +21,31 @@ const darkTheme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
-    <CssBaseline />
-    <Router>
-      <Container style={{height:"100vh"}}>
-        <Header />
+      <CssBaseline />
+      <Router>
+        <Container style={{ height: "100vh" }}>
+          <Header />
           <Routes>
-              <Route 
-                path="/" 
-                element={<AboutMe />} 
-              />
-              <Route 
-                path="/portfolio" 
-                element={<Portfolio />} 
-              />
-              <Route 
-                path="/contact" 
-                element={<Contact />} 
-              />
-              <Route 
-                path="/resume"
-                element={<Resume />}
-              />          
+            <Route
+              path="/"
+              element={<AboutMe />}
+            />
+            <Route
+              path="/portfolio"
+              element={<Portfolio />}
+            />
+            <Route
+              path="/contact"
+              element={<Contact />}
+            />
+            <Route
+              path="/resume"
+              element={<Resume />}
+            />
           </Routes>
-        <Footer/>
-      </Container>
-    </Router>
+          <Footer />
+        </Container>
+      </Router>
     </ThemeProvider>
   );
 }

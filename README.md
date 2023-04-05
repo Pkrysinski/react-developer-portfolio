@@ -76,7 +76,7 @@ THEN I see titled images of six of the developer’s applications with links to 
 - - - - -
 WHEN I am presented with the Contact section,
 THEN I see a contact form with fields for a name, an email address, and a message.
->IN-PROGRESS: Need to add inputs for name and message, and get themn working.
+>DONE: Full name, email address, and textarea with message all implemented.
 
 
 - - - - -
@@ -87,7 +87,7 @@ THEN I receive a notification that this field is required.
 - - - - -
 WHEN I enter text into the email address field,
 THEN I receive a notification if I have entered an invalid email address.
-
+>DONE: Email validation implemented and tested.
 
 - - - - -
 WHEN I am presented with the Resume section,
