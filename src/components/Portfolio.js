@@ -14,7 +14,7 @@ function Portfolio() {
             desc: "The purpose of this app is to showcase our understanding of the Model-View-Controller (MVC) architecture.",
             website: "https://mvc-tech-blog-app-production.up.railway.app/",
             github: "https://github.com/Pkrysinski/MVC-Tech-Blog-app",
-            img: "/mvc-tech-blog-img.jpg", //TODO: Image won't load, only the alt text.
+            img: "/mvc-tech-blog-img.jpg",
             alt: "mvc-tech-blog.jpg"
         },
         {
@@ -69,9 +69,10 @@ function Portfolio() {
                                 <CardActionArea>
                                     <CardMedia
                                         component="img"
-                                        height="140"
+                                        height="400"
                                         image={project.img}
                                         alt={project.alt}
+                                        sx={{ padding: "1em 1em 0 1em", objectFit: "contain" }}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
