@@ -8,12 +8,12 @@ import Typography from '@mui/material/Typography';
 function Portfolio() {
 
     const projects = [
-        { id: 1, title: "Project 1", desc: "", website: "", github: "", img: "" },
-        { id: 2, title: "Project 2", desc: "", website: "", github: "", img: "" },
-        { id: 3, title: "Project 3", desc: "", website: "", github: "", img: "" },
-        { id: 4, title: "Project 4", desc: "", website: "", github: "", img: "" },
-        { id: 5, title: "Project 5", desc: "", website: "", github: "", img: "" },
-        { id: 6, title: "Project 6", desc: "", website: "", github: "", img: "" }
+        { id: 1, title: "Project 1", desc: "", website: "", github: "", img: ""},
+        { id: 2, title: "Project 2", desc: "", website: "", github: "", img: ""},
+        { id: 3, title: "Project 3", desc: "", website: "", github: "", img: ""},
+        { id: 4, title: "Project 4", desc: "", website: "", github: "", img: ""},
+        { id: 5, title: "Project 5", desc: "", website: "", github: "", img: ""},
+        { id: 6, title: "Project 6", desc: "", website: "", github: "", img: ""}
     ]
 
     return (
@@ -25,7 +25,7 @@ function Portfolio() {
                 <div style={{ display: "flex", border: "2px solid grey" }}>
                     {projects.map(project => {
                         return (
-                            <Card style={{ width: "18em" }}>
+                            <Card style={{ width: "18em" }} key={project.id}>
                                 <CardContent>
                                     <Typography sx={{ fontSize: 14 }} gutterBottom>
                                         {project.title}

@@ -1,9 +1,11 @@
 import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
     return (
-        <footer style={{position:"absolute",bottom:"0"}}>
+        <footer>
             <p>- - - - - - - - - - - - - - - - - - - -</p>
+            <p>TODO: add footer content here</p>
         </footer>
       );
 };

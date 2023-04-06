@@ -23,7 +23,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Router>
-        <Container style={{ height: "100vh" }}>
+        <Container style={{ height: "100vh", position: "relative" }}>
           <Header />
           <Routes>
             <Route
