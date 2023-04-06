@@ -5,6 +5,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
+// MUI Card documentation https://mui.com/material-ui/react-card/
+
 function Portfolio() {
 
     const projects = [
