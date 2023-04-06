@@ -62,8 +62,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact">
-      <div>
+      <div id="contact" style={{ height: "100vh", position: "relative" }}>
         <h1>Please fill out a form to contact me!</h1>
         <form className="form">
           <div>
@@ -91,6 +90,8 @@ function Contact() {
               onChange={handleInputChange}
               type="message"
               placeholder="Message text here"
+              rows="12"
+              cols="60"
             />
           </div>
           <button type="button" onClick={handleFormSubmit}>Submit</button>
@@ -101,8 +102,6 @@ function Contact() {
           </div>
         )}
       </div>
-    </section>
-
   );
 }
 

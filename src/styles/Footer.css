@@ -1,7 +1,7 @@
 footer {
     display: flex;
     width: 100%;
-    position: absolute;
+    position: sticky;
     margin: 0;
     bottom: 0;
     left:0;
