@@ -11,10 +11,10 @@ function Portfolio() {
         {
             id: 1,
             title: "MVC Tech Blog",
-            desc: "The purpose of this app is to showcase our understanding of the Model-View-Controller (MVC) architecture through expressing our knowledge of why separation of concerns in this consideration is a great practive to follow.",
+            desc: "The purpose of this app is to showcase our understanding of the Model-View-Controller (MVC) architecture.",
             website: "https://mvc-tech-blog-app-production.up.railway.app/",
             github: "https://github.com/Pkrysinski/MVC-Tech-Blog-app",
-            img: "./images/mvc-tech-blog-img.jpg", //TODO: Image won't load, only the alt text.
+            img: "/mvc-tech-blog-img.jpg", //TODO: Image won't load, only the alt text.
             alt: "mvc-tech-blog.jpg"
         },
         {
