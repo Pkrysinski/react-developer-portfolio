@@ -71,7 +71,7 @@ THEN I see a recent photo or avatar of the developer and a short bio about them.
 - - - - -
 WHEN I am presented with the Portfolio section,
 THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories.
-
+>IN-PROGRESS: All done with 5, just need one more for my 6th and it's going to be the Mealer Dealer app.
 
 - - - - -
 WHEN I am presented with the Contact section,
@@ -82,7 +82,7 @@ THEN I see a contact form with fields for a name, an email address, and a messag
 - - - - -
 WHEN I move my cursor out of one of the form fields without entering text,
 THEN I receive a notification that this field is required.
-
+>IN-PROGRESS: There is input handling when the user tries to submit the form with invalid fields.  TODO: Need to add a click-outside of event when clicking outside of an empty field.
 
 - - - - -
 WHEN I enter text into the email address field,
@@ -101,5 +101,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - - - - -
 TODO LIST...
--Need a footer component (and maybe a header?).
--Need to implement tailwind/CSS.
+-Need to make footer at bottom of page at all times.
+-Need to make header responsive to stack when on mobile (think this can be done with flexbox).
