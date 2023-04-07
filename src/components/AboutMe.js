@@ -72,7 +72,7 @@ const itemData = [
         cols: 2,
     },
     {
-        img: '/aboutMe/nala.JPEG',
+        img: '/aboutMe/nala.jpeg',
         title: 'nala',
         rows: 2,
         cols: 2,
