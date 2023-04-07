@@ -99,7 +99,7 @@ function AboutMe() {
                 Outdoor interests:  skiing, snowboarding, disc golf, mtn biking, hiking, camping, travel, restaurants/breweries, any new adventure!  Also enjoy doing maintenance on my car, going for a canyon drive, and a simple neighborhood walk.
             </p>
             <p>
-                Indoor interests: Cooking, potteryand making ceramics for friends, spending time with my family/pets, video games, music, and of course...coding!
+                Indoor interests: Cooking, pottery and making ceramics for friends, spending time with my family/pets, video games, music, and of course...coding!
             </p>
 
             <div id="imageList" style={{ display: "flex", justifyContent: "center" }}>

@@ -10,7 +10,6 @@ import Stack from '@mui/material/Stack';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import IconButton from '@mui/material/IconButton';
-// MUI Card documentation https://mui.com/material-ui/react-card/
 
 function Portfolio() {
 
