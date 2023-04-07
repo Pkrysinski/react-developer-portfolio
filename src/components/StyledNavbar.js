@@ -8,25 +8,33 @@ function StyledNavbar() {
             <NavLink to='/' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "white",
+                    color: isActive ? "teal" : "white",
+                    textDecoration: 'none',
+                    padding: 10
                 }
-            }}>About Me</NavLink>
-            <NavLink to='/portfolio' style={({isActive, isPending})=>{
+            }}>About</NavLink>
+            <NavLink to='/portfolio' style={({isActive, isPending}) =>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "white",
+                    color: isActive ? "teal" : "white",
+                    textDecoration: 'none',
+                    padding: 10
                 }
             }}>Portfolio</NavLink>
             <NavLink to='/contact' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "white",
+                    color: isActive ? "teal" : "white",
+                    textDecoration: 'none',
+                    padding: 10
                 }
             }}>Contact</NavLink>
             <NavLink to='/resume' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
-                    color: isPending ? "red" : "white",
+                    color: isActive ? "teal" : "white",
+                    textDecoration: 'none',
+                    padding: 10
                 }
             }}>Resume</NavLink>
         </nav>
