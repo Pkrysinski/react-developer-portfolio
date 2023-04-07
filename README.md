@@ -12,6 +12,9 @@ The purpose of this app is to demonstrate our knowledge and understanding of the
 
 >Node.js
 
+>Express.js
+
+>Material UI (css framework)
 
 ## Links
 
@@ -72,7 +75,7 @@ THEN I see titled images of six of the developer’s applications with links to 
 - - - - -
 WHEN I am presented with the Contact section,
 THEN I see a contact form with fields for a name, an email address, and a message.
->DONE: Full name, email address, and textarea with message all implemented.
+>DONE: Full name, email address, and textarea with message all implemented.  TODO: Would like to implement actual email functionality so that when the form is submitted, an email is generated with the form's content and sent to my email address.
 
 - - - - -
 WHEN I move my cursor out of one of the form fields without entering text,

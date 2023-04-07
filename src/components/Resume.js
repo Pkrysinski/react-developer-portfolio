@@ -4,12 +4,15 @@ function Resume() {
 
     return (
         <div id="resume" style={{ height: "100vh", position: "relative" }}>
-            <h1>
-                Below is where my resume content will go...
-            </h1>
-            <p>
-                Resume link here
-            </p>
+
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                <img src="/resume/resume-img.JPG" alt="Peter Krysinski Resume"/>
+            </div>
+            <br></br>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                <a href='/resume/01PeterKrysinskiResume.pdf' download>Click to download PDF</a>
+            </div>
+
         </div>
     )
 };

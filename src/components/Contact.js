@@ -50,7 +50,7 @@ function Contact() {
       return;      
     } else {
       //TODO: This is where the email with message and full name will actually be sent out to me.
-      alert(`Hello ${email}`);
+      alert(`Hello ${contactName}, your message has been sent and we will reply back to you at ${email} ASAP!`);
     }
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
