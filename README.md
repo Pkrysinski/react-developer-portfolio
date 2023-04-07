@@ -101,5 +101,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - - - - -
 TODO LIST...
--Need to make footer at bottom of page at all times.
--Need to make header responsive to stack when on mobile (think this can be done with flexbox).
+-Add list of images to About Me section (https://mui.com/material-ui/react-image-list/)
