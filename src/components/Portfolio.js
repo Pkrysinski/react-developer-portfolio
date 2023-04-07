@@ -94,14 +94,14 @@ function Portfolio() {
                                     </Typography>
                                     <br></br>
                                     <Link to={project.github} target="_blank">
-                                        <IconButton aria-label="github">
+                                        <IconButton aria-label="github" component="span">
                                             <GitHubIcon />
                                         </IconButton>
                                     </Link>
                                     <Link to={project.website} target="_blank">
-                                    <IconButton aria-label="openinbrowser">
+                                        <IconButton aria-label="openinbrowser" component="span">
                                             <OpenInBrowserIcon />
-                                        </IconButton>  
+                                        </IconButton>
                                     </Link>
                                 </CardContent>
                             </CardActionArea>

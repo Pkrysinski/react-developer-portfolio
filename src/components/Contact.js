@@ -53,8 +53,6 @@ function Contact() {
       alert(`Hello ${email}`);
     }
 
-
-
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setEmail('');
@@ -65,7 +63,7 @@ function Contact() {
       <div id="contact" style={{ height: "100vh", position: "relative" }}>
         <h1>Please fill out a form to contact me!</h1>
         <form className="form">
-          <div>
+          <div style={{ paddingBottom: "5px"}}>
             <input
               value={contactName}
               name="contactName"
@@ -74,7 +72,7 @@ function Contact() {
               placeholder="Full name here"
             />
           </div>
-          <div>
+          <div style={{ paddingBottom: "5px"}}>
             <input
               value={email}
               name="email"

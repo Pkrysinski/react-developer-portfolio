@@ -16,7 +16,7 @@ The purpose of this app is to demonstrate our knowledge and understanding of the
 ## Links
 
 Link to deployed application...
-
+https://react-developer-portfolio-production-8966.up.railway.app/
 
 Link to GitHub repo...
 https://github.com/Pkrysinski/React-Developer-Portfolio
@@ -66,12 +66,12 @@ THEN the About Me title and section are selected by default.
 - - - - -
 WHEN I am presented with the About Me section,
 THEN I see a recent photo or avatar of the developer and a short bio about them.
-
+>DONE: Bio with fun image list and multiple images showcasing different parts of my life is complete.
 
 - - - - -
 WHEN I am presented with the Portfolio section,
 THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories.
->IN-PROGRESS: All done with 5, just need one more for my 6th and it's going to be the Mealer Dealer app.
+>DONE: All 6 projects tested, complete with buttons/icons that act as links that direct the user to a new tab for both GitHub repo specific to the project, and live deployed site.
 
 - - - - -
 WHEN I am presented with the Contact section,
@@ -101,4 +101,3 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - - - - -
 TODO LIST...
--Add list of images to About Me section (https://mui.com/material-ui/react-image-list/)

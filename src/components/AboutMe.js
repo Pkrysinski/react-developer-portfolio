@@ -24,8 +24,8 @@ const itemData = [
         cols: 2,
     },
     {
-        img: '/aboutMe/flowers.JPEG',
-        title: 'flowers',
+        img: '/aboutMe/cactus.JPEG',
+        title: 'cactus',
         rows: 2,
         cols: 2,
     },
@@ -72,8 +72,8 @@ const itemData = [
         cols: 2,
     },
     {
-        img: '/aboutMe/cactus.JPEG',
-        title: 'cactus',
+        img: '/aboutMe/nala.JPEG',
+        title: 'nala',
         rows: 2,
         cols: 2,
     },
