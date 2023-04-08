@@ -61,7 +61,6 @@ WHEN I load the portfolio the first time,
 THEN the About Me title and section are selected by default.
 >DONE: This is now the default page when the app is loaded up.
 
-
 - - - - -
 WHEN I am presented with the About Me section,
 THEN I see a recent photo or avatar of the developer and a short bio about them.
@@ -90,12 +89,9 @@ THEN I receive a notification if I have entered an invalid email address.
 - - - - -
 WHEN I am presented with the Resume section,
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies.
+>DONE: Screenshot of resume on the page, and a link below which can be clicked to download a PDF version of it.
 
 - - - - -
 WHEN I view the footer,
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
 >DONE: Buttons with icons representing LinkedIn, GitHub, and Twitter all active in footer.
-
-
-- - - - -
-TODO LIST...
