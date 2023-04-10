@@ -10,6 +10,8 @@ function StyledNavbar() {
                     fontWeight: isActive ? "bold" : "",
                     color: isActive ? "teal" : "white",
                     textDecoration: 'none',
+                    paddingTop: 5,
+                    paddingBottom: 5,
                     paddingLeft: 10,
                     paddingRight: 10
                 }
@@ -19,6 +21,8 @@ function StyledNavbar() {
                     fontWeight: isActive ? "bold" : "",
                     color: isActive ? "teal" : "white",
                     textDecoration: 'none',
+                    paddingTop: 5,
+                    paddingBottom: 5,
                     paddingLeft: 10,
                     paddingRight: 10
                 }
@@ -28,6 +32,8 @@ function StyledNavbar() {
                     fontWeight: isActive ? "bold" : "",
                     color: isActive ? "teal" : "white",
                     textDecoration: 'none',
+                    paddingTop: 5,
+                    paddingBottom: 5,
                     paddingLeft: 10,
                     paddingRight: 10
                 }
@@ -37,6 +43,8 @@ function StyledNavbar() {
                     fontWeight: isActive ? "bold" : "",
                     color: isActive ? "teal" : "white",
                     textDecoration: 'none',
+                    paddingTop: 5,
+                    paddingBottom: 5,
                     paddingLeft: 10,
                     paddingRight: 10
                 }
