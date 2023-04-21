@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import IconButton from '@mui/material/IconButton';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
 
 const buttonLinks = {
     LinkedIn: "https://www.linkedin.com/in/peterkrysinski/",
@@ -24,12 +23,7 @@ function Footer() {
                 <IconButton aria-label="openinbrowser" component="span">
                     <GitHubIcon />
                 </IconButton>
-            </Link>
-            <Link to={buttonLinks.Twitter} target="_blank">
-                <IconButton aria-label="openinbrowser" component="span">
-                    <TwitterIcon />
-                </IconButton>
-            </Link>            
+            </Link>         
         </footer>
       );
 };
