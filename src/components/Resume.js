@@ -6,7 +6,7 @@ function Resume() {
         <div id="resume" style={{ height: "100vh", position: "relative" }}>
 
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <img src="/resume/resume-img.JPG" alt="Peter Krysinski Resume" style={{ height: "500px"}}/>
+                <img src="/resume/01PeterKrysinskiResume-IMG.JPG" alt="Peter Krysinski Resume" style={{ height: "500px"}}/>
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
