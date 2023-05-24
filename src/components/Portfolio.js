@@ -67,6 +67,15 @@ function Portfolio() {
             github: "https://github.com/Pkrysinski/The-Mealer-Dealer",
             img: "/portfolio/mealer-dealer-img.JPG",
             alt: "mealer-dealer-img.JPG"
+        },
+        {
+            id: 7,
+            title: "InsuLink",
+            desc: "A social media app that allows prospective college students with Type 1 Diabetes to look for other T1D potential roommates who have committed to the school and allow them to connect and entertain living together before arrival. The benefit of the app is so that they can assist each other in the event of diabetes complications at any given time.",
+            website: "https://insulink-develop.up.railway.app/",
+            github: "https://github.com/brachtco/InsuLink",
+            img: "/portfolio/insulink.JPG",
+            alt: "insulink.JPG"
         }
     ]
 
